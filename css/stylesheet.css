@@ -1,0 +1,28 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700';'https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i'); 
+
+
+/* Esto es un prueba */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+ 
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+body {
+  font-family:'Roboto';
+  font-variant: '400'
+  color: #325050;
+  background: #fff;
+  font-size: 70%;
+}
+ .page-wrapper {
+  position: relative;
