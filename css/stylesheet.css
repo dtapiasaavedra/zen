@@ -298,6 +298,7 @@ border-bottom: 1px solid #000;
     width: auto;
     padding-left: 0;
     padding-right: 0;
+    line-height:2.5em;
     margin: 0 29.4% 0 14.7%; /* 0 10% 0 5% of total width */
   } 
   
