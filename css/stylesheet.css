@@ -6,20 +6,21 @@ header {
  position: relative; 
  background-color: #F3F2E4;
 }
+
 h1 {
  font-family: 'Roboto';
  font-weight: Bold;
  line-height:0em;
- aline: left;
+ text-align:  left;
  }
 
   h2 {
  font-family: 'Libre-Baskerville';
- font-size: 1.2em;
+ font-size: 1.3em;
  font-style: Italic;
  font-weight:400;
- margin-left:30%;
- margin-rigth:50%;
+ margin-top:1.4em;
+ text-align:left;
    }
 
  .intro { 
@@ -30,7 +31,8 @@ font-family: Roboto;
 border-top: 1px solid #ccc;
 border-bottom: 1px solid #ccc;
 }
-  @media (min-width: 700px) { 
+  
+@media (min-width: 700px) { 
 
 .intro {
    display:block;
@@ -257,7 +259,6 @@ border-bottom: 1px solid #000;
 }
 
 /* @media (min-width: 700px) { 
-
 .sidebar {
    display:block;
    float: right;
@@ -266,17 +267,13 @@ border-bottom: 1px solid #000;
   margin-bottom:80%;  
   
 } 
-
 .zen-resources.design-archives.design-selection.requirements.intro.zen-summary {
   
  display: container; 
  margin-right: 60%;
  float: left;
 }
-
-
 }
-
 */
 
  @media (min-width: 700px) { 
@@ -339,3 +336,103 @@ body{
   
 }
 
+
+/* @media (min-width: 700px) { 
+.sidebar {
+   display:block;
+   float: right;
+  margin-right: 10%;
+  margin-left:55%;
+  margin-bottom:80%;  
+  
+} 
+.zen-resources.design-archives.design-selection.requirements.intro.zen-summary {
+  
+ display: container; 
+ margin-right: 60%;
+ float: left;
+}
+}
+*/
+
+ @media (min-width: 700px) { 
+
+ /* sidebar styling */
+  .design-selection, .zen-resources.desing-archives {
+    position: absolute;
+   /* top: 17em;*/
+    top: 280px;
+    right: 0;
+    width: 33.3%;
+    padding: 0 0 20px 0;
+    margin: 0;
+    overflow: visible;
+    background: transparent;
+  }
+  .sidebar li {
+    float: none;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+    line-height:2.5em;
+    margin: 0 29.4% 0 14.7%; /* 0 10% 0 5% of total width */
+  } 
+  
+}
+
+ @media (min-width: 700px) { 
+
+  .design-selection {
+   display:block;
+    
+} 
+
+.design-selection h3{
+  border-top: 1px solid #000;
+  padding-top:3em;
+  font-size: 1em;
+  font-weight:400;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
+
+}
+}
+
+  @media (min-width: 700px) { 
+  
+body{
+    margin-left:4em;
+    line-height:1.4em;
+  }
+
+  .intro h3{
+    
+  margin-top:2em;
+    
+  }
+  
+  }
+/*Cambio  cascada*/
+ul{
+list-style-type: none;
+}  
+@media (min-width: 700px) { 
+
+h1{
+   font-size:4em ;
+  }
+header h2{
+  font-size:1.85em;
+    }
+a:link   
+{   
+ text-decoration:none;   
+} 
+h2 {
+ display: block;
+ margin-left:30%;
+ margin-rigth:50%;
+ font-size: 1.2em;
+} 
+}
